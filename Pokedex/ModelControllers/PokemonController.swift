@@ -17,7 +17,7 @@ class PokemonController {
         // 1 - URL
         guard let baseURL = URL(string: "https://pokeapi.co/api/v2/pokemon/") else { return completion(.failure(.invalidURL)) }
         let pokemonURL = baseURL.appendingPathComponent(searchTerm.lowercased())
-        
+        print(pokemonURL)
         // 2 - Data task
         URLSession.shared.dataTask(with: pokemonURL) { data, _, error in
             
