@@ -30,3 +30,9 @@ Learning objectives:
 ## UI
 * Students need to understand that UI updates can only be made from the main thread.
 * Help them understand how to switch on `Result`.
+
+## Programmatic Branch
+
+- This branch pretty much does everything that the normal finished branch does, with the exception of being built with programmatic views
+- There is another file added with instruction on how to instruct students on deleting the storyboard and adding a new assigning a new window + scene to enter the app.
+  
